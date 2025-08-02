@@ -64,10 +64,7 @@ void setup()
     // Pin 9 is PB1), (Arduino Pin 10 is PB2) is a part of Port B
     DDRB |= 1 << 1 | 1 << 2; // set as OUTPUT
 
-    // Set RELAY pin PD5 is a part off Port D
-    DDRD |= 1 << 5;     // set as OUTPUT
-    PORTD &= ~(1 << 5); // set to LOW
-
+   
     sei(); // allow interrupts
     // timer configuration finish
     /**************************************************************************/

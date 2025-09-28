@@ -1,5 +1,8 @@
 # Arduino Nano: Eine 25kHz Frequenz für ein PWM Signal erzeugen
 
+**Wofür 25kHz?** Wenn man ein echtes PWM Signal nutzen möchte um 12V Lüfter zu steuern. Zum einen ist die Frequens nicht hörbar für das menschliche Ohr zum andere
+sieht die Specification es vor diese Frequenz zu verwenden.
+
 Mit dem Arduino Nano eine 25kHz Frequenz zu erzeugen ist kein Problem. Dieses Beispiel bezieht sich auf einen ATmega328P Microchip.
 
 ### Datenblatt Atmel ATmega328P
